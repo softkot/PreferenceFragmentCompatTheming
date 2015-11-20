@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Debug category will be hidden on non debug builds-->
+    <PreferenceCategory
+        android:key="Category 1"
+        android:title="Category">
+        <SwitchPreferenceCompat
+            android:defaultValue="false"
+            android:key="switch1"
+            android:summary="First preference"
+            android:title="First"/>
+        <SwitchPreferenceCompat
+            android:defaultValue="false"
+            android:key="switch2"
+            android:summary="Second preference"
+            android:title="Second"/>
+
+        <SwitchPreferenceCompat
+            android:defaultValue="false"
+            android:key="switch3"
+            android:summary="Third preference"
+            android:title="Third"/>
+
+        <SwitchPreferenceCompat
+            android:defaultValue="false"
+            android:key="switch4"
+            android:summary="Fourth preference"
+            android:title="Fourth"/>
+
+        <SwitchPreferenceCompat
+            android:defaultValue="false"
+            android:key="switch5"
+            android:summary="Fifth preference"
+            android:title="Fifth"/>
+
+        <SwitchPreferenceCompat
+            android:defaultValue="false"
+            android:key="switch6"
+            android:summary="Six preference"
+            android:title="Six"/>
+
+        <SwitchPreferenceCompat
+            android:defaultValue="false"
+            android:key="switch7"
+            android:summary="Seven preference"
+            android:title="Seven"/>
+
+        <SwitchPreferenceCompat
+            android:defaultValue="false"
+            android:key="switch8"
+            android:summary="Eight preference"
+            android:title="Eight"/>
+
+        <SwitchPreferenceCompat
+            android:defaultValue="false"
+            android:key="switch9"
+            android:summary="Nine preference"
+            android:title="Nine"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

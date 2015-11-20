@@ -1,0 +1,20 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="preferenceTheme">@style/AppPreferenceTheme</item>
+    </style>
+
+    <!--https://developer.android.com/reference/android/support/v7/preference/R.styleable.html#PreferenceFragmentCompat_android_layout-->
+    <!--Attribute	Description-->
+    <!--android:layout-->
+    <!--android.support.v7.preference:layout	The layout for the PreferenceFragment.-->
+    <style name="AppPreferenceTheme" parent="@style/PreferenceThemeOverlay">
+        <item name="preferenceFragmentStyle">@style/AppPreferenceFragment</item>
+
+    </style>
+
+    <style name="AppPreferenceFragment" parent="@style/PreferenceFragment">
+        <item name="layout">@layout/layout_waterfall_settings</item>
+    </style>
+</resources>
